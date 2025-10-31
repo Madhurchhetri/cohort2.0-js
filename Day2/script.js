@@ -13,3 +13,30 @@
 // Infinity - infinity
 
 // relative and premitive data types
+
+// let a = "madhur";
+// let num = 1234;
+// let num = 12.25564;
+// // console.log(typeof (a));
+// console.log( typeof(Math.round(num)));
+// console.log(typeof((num).toFixed(2)));
+
+// let a = null;
+// console.log(a);
+
+// let arr = [1,2,3,4,"madhur"]
+// console.log(arr);
+
+// let obj = {
+//     name:"madhur",
+//     age: 25,
+// }
+// console.log(obj);
+
+// let a;
+// console.log(a);
+
+
+
+
+
