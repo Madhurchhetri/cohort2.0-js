@@ -81,15 +81,20 @@
 
 // 9....
 
-let obj ={
-    name :"madhur",
-    age : 12,
-    city: "dehradun",
-}
+// let obj ={
+//     name :"madhur",
+//     age : 12,
+//     city: "dehradun",
+// }
 
-for(let key in obj){
-    console.log(obj[key]);
+// for(let key in obj){
+//     console.log(obj[key]);
     
-}
+// }
 
 // 10......
+
+// setTimeout(function(){
+//     console.log("time's up");
+    
+// },2000)
