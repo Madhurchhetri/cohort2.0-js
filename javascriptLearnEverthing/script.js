@@ -77,6 +77,94 @@
 
 
 
+// for(let i=1; i<=20; i++){
+//     if(i%3===0){
+//         continue;
+//     }
+//     console.log(i);
+    
+// }
+
+// let i = 1;
+// while(i<=20){
+    
+//     if(i%2 === 0){
+//         console.log(i);
+//     }
+//     i++;
+// }
+
+// let sum =0;
+
+// for(let i=1; i<=10; i++){
+//     // console.log(i);
+//     sum = sum + i;
+    
+// }
+// console.log(sum);
+// let count = 0;
+// for(let i =10; i<=20; i++){
+//     count++;
+    
+// }
+// console.log(count);
+
+
+// let num = prompt('enter the number');
+// let isPrimneNumber = true;
+
+// for(let i = 2; i<num; i++){
+//     if(num % i === 0){
+//         isPrimneNumber = false;
+//         console.log(i);
+        
+//     }
+// }
+// if(isPrimneNumber === true){
+//     console.log(`${num} is a prime number`);
+    
+// }else{
+//     console.log(`${num} is not a prime number`);
+    
+// }
+
+// let num1 = 0;
+// let num2 = 1;
+// let count = 0;
+// for(let i=0 ; i<=10; i++){
+//     count++;
+//    let next = num1 + num2;
+//     console.log(next);
+//    num1 = num2;
+//    num2 = next
+//   if(count === 7){
+//     break;
+//    }
+    
+// }
+
+
+// for(let i=1; i<=4; i++){
+//     let pattern = "";
+//     for(let j=1; j<=i; j++){
+//         pattern +="*"
+//     }
+//     console.log(pattern);
+    
+// }
+
+// let num = 5;
+// let fact = 1;
+
+// for (let i = 1; i <= num; i++) {
+//      console.log(`Step ${i}: ${fact} × ${i} = ${fact * i}`);
+//   fact *= i;
+  
+  
+// }
+
+// console.log(`Factorial of ${num} is: ${fact}`);
+
 
   
  
