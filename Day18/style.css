@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .card {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-direction: column;
+  border-radius: 2rem;
+  background-color: #fff;
+  color: #000;
+  padding: 4rem 1rem;
+}
+main .card p {
+  margin: 10px 0 0 0;
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+main .card p span {
+  color: blue;
+}
+main .card .outer {
+  width: 100%;
+  height: 20px;
+  border-radius: 2rem;
+  border: none;
+  background-color: grey;
+}
+main .card .outer .inner {
+  width: 0%;
+  height: 100%;
+  background-color: green;
+  border-radius: 2rem;
+}
+main .card .bottom {
+  width: 100%;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .card .bottom h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+main .card .bottom button {
+  padding: 1.2rem 1.8rem;
+  border: none;
+  background-color: green;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+main .card .bottom button:active {
+  scale: 0.9;
+}/*# sourceMappingURL=style.css.map */
